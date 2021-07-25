@@ -1,0 +1,5 @@
+[0] Config.pm:312> INFO - This is Biber 2.15
+[0] Config.pm:315> INFO - Logfile is 'framework.blg'
+[63] biber:330> INFO - === Sun Jul 25, 2021, 13:31:47
+[126] Utils.pm:411> ERROR - Cannot find 'framework.bcf'!
+[126] Biber.pm:132> INFO - ERRORS: 1

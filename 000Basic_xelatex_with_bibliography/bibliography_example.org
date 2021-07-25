@@ -1,0 +1,19 @@
+
+* Ελληνικά With references!
+  # 
+Let's cite! Einstein's journal paper \parencite{einstein} and Dirac's 
+book \cite{dirac} are physics related items. 
+
+* Ελληνικά without references...
+
+Let's cite! Einstein's journal paper and Dirac's 
+book are physics related items. 
+
+* COMMENT tests
+
+#+begin_src emacs-lisp
+(org-latex-selected-template-path)
+#+end_src
+
+#+RESULTS:
+: /home/iani/latex-exports/templates/000BASIC_with_bibliography

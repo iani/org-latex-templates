@@ -1,0 +1,23 @@
+\documentclass[a4, 11pt]{article}
+\usepackage{fontspec}
+\setmainfont{Linux Libertine O} % libertine definitely better than Times New Roman
+\usepackage{xeCJK} % enable Japanese
+% \setmainfont{Times New Roman}
+\setCJKmainfont[BoldFont=IPAGothic,ItalicFont=IPAGothic]{IPAMincho}
+\usepackage[left=2.5cm, right=2.5cm, top=2cm, bottom=3cm]{geometry}
+\usepackage{hyperref}
+%This is needed to enable underlined emphasis (e.g. _underlined_)
+\usepackage[normalem]{ulem} 
+\usepackage{lipsum}
+\sloppy
+%%%% testing biblatex + bibliography addons
+\usepackage[natbib]{biblatex}
+% \bibliographystyle{plain}
+\bibliography{test-bib-refs}
+
+\begin{document}
+
+\input{body.tex}
+
+\end{document}
+

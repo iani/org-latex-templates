@@ -1,0 +1,17 @@
+
+* Usage
+
+1. Put this directory inside your home directory under latex-exports.  The path of the directory should look like this: 
+   ~/latex-exports/templates
+2. Create an exports directory inside ~/latex-exports
+
+The latex exports directory should look like this: 
+
+#+BEGIN_EXAMPLE
+~/latex-exports
+   templates
+   exports
+#+END_EXAMPLE
+
+3. Use org-compile-latex... from postload folder from emacs-prelude-personal repo of user iani.
+
