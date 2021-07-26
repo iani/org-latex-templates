@@ -1,3 +1,8 @@
+#+LATEX-TEMPLATE: 000Basic_xelatex_with_bibliography
+
+* About
+
+Eaxh directory in this repository contains a set of tex files that works as a template to export org-mode files into pdf using the function =org-compile-latex-with-custom-framework=.  This function in combination with the template files provides an alternative way to export org-mode files into pdf via latex, using template files written in latex instead of customizing the org-mode exprot function by writing snippets of latex in lisp. 
 
 * Usage
 

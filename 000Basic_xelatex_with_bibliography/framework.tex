@@ -1,24 +1,21 @@
 \documentclass[a4, 11pt]{article}
 
-\usepackage{fontspec}
-\setmainfont{Linux Libertine O} % libertine definitely better than Times New Roman
-\usepackage{xeCJK} % enable Japanese
-% \setmainfont{Times New Roman}
-\setCJKmainfont[BoldFont=IPAGothic,ItalicFont=IPAGothic]{IPAMincho}
-\usepackage[left=2.5cm, right=2.5cm, top=2cm, bottom=3cm]{geometry}
-\usepackage{hyperref}
+% comment the next line out if you want to use pdflatex
+\input{xelatex_fonts.tex} % use xelatex and international fonts
 
-%This is needed to enable underlined emphasis (e.g. _underlined_)
-\usepackage[normalem]{ulem} 
-\usepackage{lipsum}
-\sloppy
-\input{bibliography_packages_and_options.tex}
+\usepackage[left=2.5cm, right=2.5cm, top=2cm, bottom=3cm]{geometry}
+
+\usepackage{hyperref} % convert cross-references in text to hypertext links
+\usepackage[normalem]{ulem} % _emphasise_ text _surrounded by underlines_
+\sloppy % allow lots of stretching between words, avoid ragged margins
+
+\input{bibliography_packages_and_options.tex} % configure bibliography
 
 \begin{document}
 
-\input{body.tex}
+\input{body.tex} % latex from your org document
 
-\input{bibliography_section.tex}
+\input{bibliography_section.tex} % produce bibliography if quotes are present
 
 \end{document}
 
